@@ -65,7 +65,7 @@
 
         if (bookings.length === 0) {
             const noBookings = document.createElement('p');
-            noBookings.textContent = 'Нет бронирований.';
+            noBookings.textContent = 'Нет бронирований';
             bookingContainer.appendChild(noBookings);
             return;
         }
@@ -91,7 +91,7 @@
 
 
         if (!name || !email || !phone || !date || !time || !people) {
-            alert('Заполните все поля.');
+            alert('Заполни все поля.');
             return;
         }
 
@@ -116,7 +116,7 @@
 
         bookingForm.reset();
 
-        alert('Ваше бронирование успешно оформлено!');
+        alert('Бронирование успешно оформлено!');
     });
 
     // При загрузке страницы отображаем все бронирования
